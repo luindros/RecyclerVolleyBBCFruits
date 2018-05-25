@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:clickable="true"
+    android:focusable="true"
+    card_view:cardBackgroundColor="#E2E2E2"
+    card_view:cardCornerRadius="2dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp">
+
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="4dp"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="18sp"
+        android:maxLines="2"
+        android:minLines="2"
+        android:ellipsize="end"/>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
